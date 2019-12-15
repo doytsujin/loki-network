@@ -1,3 +1,16 @@
+lokinet (0.6.0~rc2-2~ubuntu1604) xenial; urgency=medium
+
+  * Refresh patches
+  * Added libcurl dep
+  * Pass debian version as GIT_VERSION
+  * Disable failing 1024 test
+  * enable network to allow vendored libsodium
+  * lokinet-rcutil renamed to lokinetctl
+  * net/if.h hack for xenial
+  * cherry-picked libabyss read fix
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Sun, 15 Dec 2019 13:25:17 -0400
+
 lokinet (0.6.0~rc2-1~ubuntu1604) xenial; urgency=medium
 
   [ Jeff Becker ]
