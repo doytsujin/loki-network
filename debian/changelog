@@ -1,3 +1,9 @@
+lokinet (0.6.0~rc2+git20191215-3~ubuntu1804) bionic; urgency=medium
+
+  * Disable NATIVE_BUILD
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Mon, 16 Dec 2019 15:21:09 -0400
+
 lokinet (0.6.0~rc2+git20191215-2~ubuntu1804) bionic; urgency=medium
 
   * Rediff patches
