@@ -1,3 +1,9 @@
+lokinet (0.6.0~rc2+git20191215-1~deb10) buster; urgency=medium
+
+  * Added git date to version
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Sun, 15 Dec 2019 23:36:32 -0400
+
 lokinet (0.6.0~rc2-3~deb10) buster; urgency=medium
 
   [ Jeff Becker ]
