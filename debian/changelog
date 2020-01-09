@@ -1,3 +1,9 @@
+lokinet (0.6.2-2~deb10) buster; urgency=medium
+
+  * Enable cpu AVX2 detection on amd64
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Wed, 08 Jan 2020 22:19:07 -0400
+
 lokinet (0.6.2-1~deb10) buster; urgency=medium
 
   [ Jason Rhinelander ]
