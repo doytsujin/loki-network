@@ -1,0 +1,16 @@
+diff --git a/llarp/net/uint128.hpp b/llarp/net/uint128.hpp
+index 6760f254..be223bdd 100644
+--- a/llarp/net/uint128.hpp
++++ b/llarp/net/uint128.hpp
+@@ -47,9 +47,9 @@ namespace llarp
+     constexpr uint128_t(const uint128_t&) = default;
+     constexpr uint128_t(uint128_t&&)      = default;
+     constexpr uint128_t&
+-    operator=(const uint128_t&) = default;
++    operator=(const uint128_t& o) { upper = o.upper; lower = o.lower; return *this; }
+     constexpr uint128_t&
+-    operator=(uint128_t&&) = default;
++    operator=(uint128_t&& o) { upper = o.upper; lower = o.lower; return *this; }
+ 
+     // bitwise and
+     constexpr uint128_t&
