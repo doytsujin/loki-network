@@ -1,3 +1,20 @@
+lokinet (0.7.0~rc1-2~ubuntu1604) xenial; urgency=medium
+
+  [ Jason Rhinelander ]
+  * Rediff patches
+  * Checkout submodules
+  * Remove enable_testing() because ctest sucks (and thus we don't use it)
+  * Add cmake compatibility patch for date
+
+  [ Jeff Becker ]
+  * std::vector reserve does not resize
+
+  [ Jason Rhinelander ]
+  * Patch for gcc5
+  * Switch systemd service files to notify
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Wed, 04 Mar 2020 00:00:40 -0400
+
 lokinet (0.7.0~rc1-1~ubuntu1604) xenial; urgency=medium
 
   [ Stephen Shelton ]
