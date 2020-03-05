@@ -49,6 +49,8 @@ lokinet (0.7.0~rc2-1~ubuntu1604) xenial; urgency=medium
 
   [ Jason Rhinelander ]
   * gitlab-ci: Upgrade xenial cmake (via kitware repo)
+  * Drop cmake compat patch from xenial
+  * Rediff patches
 
  -- Jason Rhinelander <jason@imaginary.ca>  Thu, 05 Mar 2020 18:08:36 -0400
 
