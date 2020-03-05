@@ -1,5 +1,13 @@
+From: "Jeff Becker (probably not evil)" <jeff@i2p.rocks>
+Date: Thu, 5 Mar 2020 18:19:39 -0400
+Subject: constexpr-gcc5
+
+---
+ llarp/net/uint128.hpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
 diff --git a/llarp/net/uint128.hpp b/llarp/net/uint128.hpp
-index 6760f254..be223bdd 100644
+index 6760f25..37ebb63 100644
 --- a/llarp/net/uint128.hpp
 +++ b/llarp/net/uint128.hpp
 @@ -47,9 +47,9 @@ namespace llarp
