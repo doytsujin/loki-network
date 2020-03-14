@@ -1,3 +1,10 @@
+lokinet (0.7.0~rc3-2~ubuntu2004) focal; urgency=medium
+
+  * Remove obsolete setcap deps
+  * Add focal build
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Sat, 14 Mar 2020 01:37:29 -0300
+
 lokinet (0.7.0~rc3-1) sid; urgency=medium
 
   [ Jason Rhinelander ]
