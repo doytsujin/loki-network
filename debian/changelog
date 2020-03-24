@@ -1,3 +1,11 @@
+lokinet (0.7.0-2~ubuntu2004) focal; urgency=medium
+
+  * Add lokinetmon package
+  * [PATCH] update lokinetmon to work again with dns rebinding protection
+  * Add "deb-" into version tag
+
+ -- Jason Rhinelander <jason@imaginary.ca>  Tue, 24 Mar 2020 13:10:45 -0300
+
 lokinet (0.7.0-1~ubuntu2004) focal; urgency=medium
 
   [ Jeff Becker ]
